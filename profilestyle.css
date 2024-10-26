@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-left:50px;
+    margin-right: 100px;
+    flex-direction: row;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+.profile-list
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+    margin-left: 35px;
+}
+.profile-info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.email {
+    background-color: #0073e6;
+    size: 12px;
+}
+
+.phone {
+    background-color: #4CAF50;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+.bi bi-facebook{
+    font-size: 20px;
+}
+.bi bi-github{
+    font-size: 200px;
+}
+
+.container1  {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.container1 h1{
+    color: black;
+}
+
+.education-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.education{
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.institution {
+    color: #555;
+    font-size: 16px;
+}
+
+.year {
+    color: #888;
+    font-size: 14px;
+}
+
+.details {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container2  {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.skills-section {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.progress {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #3498db;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s;
+    width: 400px;
+}
+.card1:hover {
+    transform: translateY(-5px);
+}
+.container3  {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.hobbieslist
+{
+    display: flex;
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+    font-size: 20px;
+}
+.hobbieslist li{
+    display: inline;
+    gap: 25px;
+    margin-right:100px ;
+
+}
+.projecttitle{
+    font-weight: bold;
+    font-size: 18px;;
+}
+.container4  {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.copyrights{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+}
